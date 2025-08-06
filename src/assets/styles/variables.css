@@ -1,0 +1,66 @@
+/* CSS 变量定义 */
+@import './tokens.css';
+
+:root {
+  /* 主色调 */
+  --primary-color: var(--primary-6);
+  --primary-light: var(--primary-4);
+  --primary-dark: var(--primary-8);
+  
+  /* 辅助色 */
+  --success-color: var(--success-6);
+  --warning-color: var(--warning-6);
+  --danger-color: var(--danger-6);
+  --info-color: var(--gray-6);
+  
+  /* 文字颜色 */
+  --text-primary: var(--gray-9);
+  --text-regular: var(--gray-8);
+  --text-secondary: var(--gray-7);
+  --text-placeholder: var(--gray-6);
+  
+  /* 边框颜色 */
+  --border-base: var(--gray-4);
+  --border-light: var(--gray-3);
+  --border-lighter: var(--gray-2);
+  --border-extra-light: var(--gray-1);
+  
+  /* 背景色 */
+  --bg-color: var(--fill-1);
+  --bg-page: var(--fill-2);
+  --bg-overlay: rgba(0, 0, 0, 0.8);
+  
+  /* 间距 */
+  --spacing-xs: var(--spacing-1);
+  --spacing-sm: var(--spacing-2);
+  --spacing-md: var(--spacing-4);
+  --spacing-lg: var(--spacing-6);
+  --spacing-xl: var(--spacing-8);
+  
+  /* 圆角 */
+  --border-radius-sm: var(--border-radius-medium);
+  --border-radius-md: var(--border-radius-large);
+  --border-radius-lg: calc(var(--border-radius-large) * 1.5);
+  
+  /* 阴影 */
+  --shadow-sm: var(--shadow-2);
+  --shadow-md: var(--shadow-3);
+  --shadow-lg: var(--shadow-4);
+  
+  /* 字体 */
+  --font-size-xs: var(--font-size-body-1);
+  --font-size-sm: var(--font-size-body-3);
+  --font-size-md: var(--font-size-body-4);
+  --font-size-lg: var(--font-size-body-5);
+  --font-size-xl: var(--font-size-body-6);
+  --font-size-xxl: var(--font-size-body-7);
+  
+  /* 行高 */
+  --line-height-sm: var(--line-height-2);
+  --line-height-md: var(--line-height-4);
+  --line-height-lg: var(--line-height-6);
+  
+  /* 动画 */
+  --transition-timing: var(--transition-timing-function-ease);
+  --transition-duration: var(--transition-duration-2);
+}
